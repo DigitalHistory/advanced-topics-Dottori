@@ -2,15 +2,15 @@
 <html>
 
   <head>
-    <title>Title Here | by Your Name</title>
-     <meta charset="UTF-8"> 
+    <title>Amazonian Seattle | by Jenny Seo</title>
+     <meta charset="UTF-8">
     <meta name="description" content="a markdown-based mapping exercise." />
     <!-- these script tags load important javascript "libraries"
          that our own little scripts depend on.  These are complex
          programs way beyond our capacities to construct; but we can
          make use of them nonetheless -->
     <!-- jQuery is an important framework used by many web projects  -->
-    <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <!-- remarkable is our markdown parser, which translates markdown into HTML -->
     <script src="https://cdn.jsdelivr.net/remarkable/1.7.1/remarkable.min.js"></script>
     <!-- Our Bootstrap theme. To use another copy the appropriate URL from  -->
@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" media="all"
           href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/solar/bootstrap.min.css" />
 
-    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyCVtRhi_zYbrx6XcR6c5Wu_VKmXWvnYz5E"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyCVtRhi_zYbrx6XcR6c5Wu_VKmXWvnYz5E"></script>
 
     <!-- this line is NOT present in the jsbin version -->
     <link rel="stylesheet" href="../css/extra-styles.css" type="text/css" media="screen" />
@@ -37,7 +37,7 @@
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Title Here | by Your Name</a> <!-- should be descriptive -->
+          <a class="navbar-brand" href="#">Amazonian Seattle| by Jenny Seo</a> <!-- should be descriptive -->
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -47,7 +47,7 @@
 
 
     <!-- these next 2 divs place the main content inside a box with margins from the screen edge -->
-    
+
     <div class="container">
       <div class = "row">
 
@@ -73,7 +73,7 @@
               linkify: true}),
               renderedcontent = "",
               origContent = $("#contentdiv").html();
-          
+
           md.block.ruler.enable([
             'footnote',
             'deflist'
@@ -96,6 +96,8 @@
           });
         };
       </script>
+
+      <script src="../js/menu.js"></script>
 
   </body>
 
